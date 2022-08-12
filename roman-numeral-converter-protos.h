@@ -9,5 +9,6 @@
 #define ROMAN_NUMERAL_PROTOS
 
 void printTitle();
+int  getUserInput();
 
 #endif
