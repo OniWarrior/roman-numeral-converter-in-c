@@ -10,5 +10,6 @@
 
 void printTitle();
 int  getUserInput();
+void validateUserInput();
 
 #endif
