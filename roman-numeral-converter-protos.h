@@ -11,5 +11,6 @@
 void printTitle();
 int  getUserInput();
 void validateUserInput();
+void switchOnUserInput(int userInput);
 
 #endif
