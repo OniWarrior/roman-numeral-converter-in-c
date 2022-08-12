@@ -8,3 +8,8 @@
 #include<stdio.h>
 #include "roman-numeral-converter-protos.h"
 
+#ifndef ROMAN_NUMERAL_IMPLEMENTS
+#define ROMAN_NUMERAL_IMPLEMENTS
+
+
+#endif
