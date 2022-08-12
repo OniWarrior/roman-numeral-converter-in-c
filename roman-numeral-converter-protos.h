@@ -9,6 +9,7 @@
 #define ROMAN_NUMERAL_PROTOS
 
 void printTitle();
+void askForUserInput();
 int  getUserInput();
 void validateUserInput();
 void switchOnUserInput(int userInput);
