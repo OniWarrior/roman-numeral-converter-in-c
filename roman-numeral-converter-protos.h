@@ -8,4 +8,6 @@
 #ifndef ROMAN_NUMERAL_PROTOS
 #define ROMAN_NUMERAL_PROTOS
 
+void printTitle();
+
 #endif
