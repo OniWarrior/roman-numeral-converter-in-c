@@ -21,19 +21,6 @@ void askForUserInput(){
     fflush(stdout);
 }
 
-int getUserInput(){
-    int userValue = 0;
-
-    scanf("%d", &userValue);
-    fflush(stdin);
-    
-    printf("\n");
-    validateUserInput(&userValue);
-
-
-    return userValue;
-}
-
 void validateUserInput(int *userInput){
     if(*userInput >= 1 && *userInput <= 10){
        return; 
@@ -48,12 +35,12 @@ void validateUserInput(int *userInput){
            printf("Please enter a value within the correct range( 1 through 10): ");
            fflush(stdout);
 
-           scanf("%d",&userInput);
+           scanf("%d",userInput);
            fflush(stdin);           
            
 
            printf("\n");
-
+           
            if(*userInput >= 1 && *userInput <= 10){
               return;
            }
@@ -62,6 +49,22 @@ void validateUserInput(int *userInput){
         }
     }
 }
+
+
+
+int getUserInput(){
+    int userValue = 0;
+
+    scanf("%d", &userValue);
+    fflush(stdin);
+    
+    printf("\n");
+    validateUserInput(&userValue);
+
+
+    return userValue;
+}
+
 
 
 void switchOnUserInput(int *userInput){
