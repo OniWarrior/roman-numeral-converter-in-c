@@ -13,7 +13,7 @@
 void printTitle();
 void askForUserInput();
 int  getUserInput();
-void validateUserInput(int &userInput);
-void switchOnUserInput(int &userInput);
+void validateUserInput(int *userInput);
+void switchOnUserInput(int *userInput);
 
 #endif
