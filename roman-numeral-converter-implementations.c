@@ -47,6 +47,7 @@ void validateUserInput(int *userInput){
            fflush(stdout);
 
            scanf("%d",&userInput);
+           fflush(stdin);
         }
     }
 }
