@@ -37,7 +37,7 @@ void validateUserInput(int *userInput){
        return; 
     }
     else{
-        
+        short int flag = 0;
     }
 }
 
