@@ -66,7 +66,7 @@ void validateUserInput(int *userInput){
 
 void switchOnUserInput(int *userInput){
     switch(*userInput){
-        
+       case 1:  printf("Roman Numeral: I\n"); break;    
     }
 
 }
