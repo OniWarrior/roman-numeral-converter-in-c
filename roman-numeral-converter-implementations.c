@@ -21,4 +21,8 @@ void askForUserInput(){
     fflush(stdout);
 }
 
+int getUserInput(){
+    
+}
+
 #endif
