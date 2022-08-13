@@ -45,6 +45,8 @@ void validateUserInput(int *userInput){
 
            printf("Please enter a value within the correct range( 1 through 10): ");
            fflush(stdout);
+
+           scanf("%d",&userInput);
         }
     }
 }
