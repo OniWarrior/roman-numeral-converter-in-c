@@ -12,5 +12,9 @@ int main(){
     printTitle();
     askForUserInput();
 
+    int userInput = getUserInput();
+
+    
+
     return 0;
 }
