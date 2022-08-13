@@ -6,3 +6,5 @@
  * written in C language.
  */
 
+#include "roman-numeral-converter-protos.h"
+
