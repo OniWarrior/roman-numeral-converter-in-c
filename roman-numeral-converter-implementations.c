@@ -41,6 +41,7 @@ void validateUserInput(int *userInput){
 
         while(flag == 0){
            printf("Value is not within the specified range!\n");
+           fflush(stdout);
            
         }
     }
