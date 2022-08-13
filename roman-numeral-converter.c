@@ -14,7 +14,7 @@ int main(){
 
     int userInput = getUserInput();
 
-    
+    validateUserInput(&userInput);
 
     return 0;
 }
