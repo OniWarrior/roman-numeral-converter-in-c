@@ -65,7 +65,10 @@ void validateUserInput(int *userInput){
 
 
 void switchOnUserInput(int *userInput){
-    
+    switch(*userInput){
+        
+    }
+
 }
 
 #endif
