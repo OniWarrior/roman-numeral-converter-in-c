@@ -32,7 +32,7 @@ int getUserInput(){
     return userValue;
 }
 
-void validateUserInput(int userInput){
+void validateUserInput(int *userInput){
 
 }
 
