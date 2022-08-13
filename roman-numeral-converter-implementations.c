@@ -27,7 +27,13 @@ int getUserInput(){
     scanf("%d", &userValue);
     fflush(stdin);
 
+
+
     return userValue;
+}
+
+void validateUserInput(){
+    
 }
 
 #endif
