@@ -10,6 +10,7 @@
 
 int main(){
     printTitle();
+    askForUserInput();
 
     return 0;
 }
