@@ -17,7 +17,7 @@ void printTitle(){
 }
 
 void askForUserInput(){
-    
+    printf("Please enter a value within the range of 1 and 10: ");
 }
 
 #endif
