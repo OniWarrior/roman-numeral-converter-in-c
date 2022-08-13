@@ -16,4 +16,8 @@ void printTitle(){
     fflush(stdout);
 }
 
+void askForUserInput(){
+    
+}
+
 #endif
