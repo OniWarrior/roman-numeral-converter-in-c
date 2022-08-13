@@ -25,6 +25,7 @@ int getUserInput(){
     int userValue = 0;
 
     scanf("%d", &userValue);
+    fflush(stdin);
 }
 
 #endif
