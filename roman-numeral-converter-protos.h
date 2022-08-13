@@ -5,13 +5,15 @@
 ** Date: 8/12/2022
 */
 
+#include "roman-numeral-converter-implementations.c"
+
 #ifndef ROMAN_NUMERAL_PROTOS
 #define ROMAN_NUMERAL_PROTOS
 
 void printTitle();
 void askForUserInput();
 int  getUserInput();
-void validateUserInput();
-void switchOnUserInput(int userInput);
+void validateUserInput(int *userInput);
+void switchOnUserInput(int *userInput);
 
 #endif
