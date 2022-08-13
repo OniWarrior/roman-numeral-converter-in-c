@@ -32,8 +32,8 @@ int getUserInput(){
     return userValue;
 }
 
-void validateUserInput(){
-    
+void validateUserInput(int userInput){
+
 }
 
 #endif
