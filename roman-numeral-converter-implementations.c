@@ -38,8 +38,10 @@ void validateUserInput(int *userInput){
     }
     else{
         short int flag = 0;
+
         while(flag == 0){
-            
+           printf("Value is not within the specified range!\n");
+           
         }
     }
 }
