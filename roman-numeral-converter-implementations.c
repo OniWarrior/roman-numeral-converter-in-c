@@ -48,6 +48,8 @@ void validateUserInput(int *userInput){
 
            scanf("%d",&userInput);
            fflush(stdin);
+
+           printf("\n");
         }
     }
 }
