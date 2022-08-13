@@ -13,6 +13,7 @@
 
 void printTitle(){
     printf("******************WELCOME TO THE ROMAN NUMERAL CONVERT APP***********************\n");
+    fflush(stdout);
 }
 
 #endif

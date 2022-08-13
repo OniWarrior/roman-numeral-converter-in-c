@@ -5,6 +5,8 @@
 ** Date: 8/12/2022
 */
 
+#include "roman-numeral-converter-implementations.c"
+
 #ifndef ROMAN_NUMERAL_PROTOS
 #define ROMAN_NUMERAL_PROTOS
 
