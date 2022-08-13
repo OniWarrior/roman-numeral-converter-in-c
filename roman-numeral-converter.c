@@ -9,6 +9,7 @@
 #include "roman-numeral-converter-protos.h"
 
 int main(){
+    printTitle();
 
     return 0;
 }
