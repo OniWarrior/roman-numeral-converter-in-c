@@ -23,6 +23,8 @@ void askForUserInput(){
 
 int getUserInput(){
     int userValue = 0;
+
+    scanf("%d", &userValue);
 }
 
 #endif
