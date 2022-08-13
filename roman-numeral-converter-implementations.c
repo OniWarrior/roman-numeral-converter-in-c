@@ -50,6 +50,7 @@ void validateUserInput(int *userInput){
            fflush(stdin);
 
            printf("\n");
+           return;
         }
     }
 }
