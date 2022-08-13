@@ -26,7 +26,8 @@ int getUserInput(){
 
     scanf("%d", &userValue);
     fflush(stdin);
-
+    
+    validateUserInput(&userValue);
 
 
     return userValue;
@@ -47,10 +48,16 @@ void validateUserInput(int *userInput){
            fflush(stdout);
 
            scanf("%d",&userInput);
-           fflush(stdin);
+           fflush(stdin);           
+           
 
            printf("\n");
-           return;
+
+           if(*userInput >= 1 && *userInput <= 10){
+              return;
+           }
+               
+           
         }
     }
 }
