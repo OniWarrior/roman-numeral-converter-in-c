@@ -22,7 +22,7 @@ void askForUserInput(){
 }
 
 int getUserInput(){
-    
+    int userValue = 0;
 }
 
 #endif
