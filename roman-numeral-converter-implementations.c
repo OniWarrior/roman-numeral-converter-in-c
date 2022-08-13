@@ -33,7 +33,9 @@ int getUserInput(){
 }
 
 void validateUserInput(int *userInput){
-
+    if(*userInput < 1 && *userInput > 10){
+        
+    }
 }
 
 #endif
