@@ -15,6 +15,7 @@ int main(){
     int userInput = getUserInput();
 
     validateUserInput(&userInput);
+    switchOnUserInput(&userInput);
 
     return 0;
 }
