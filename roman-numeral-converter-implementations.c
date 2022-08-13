@@ -38,6 +38,9 @@ void validateUserInput(int *userInput){
     }
     else{
         short int flag = 0;
+        while(flag == 0){
+            
+        }
     }
 }
 
