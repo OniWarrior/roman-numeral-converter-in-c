@@ -63,4 +63,9 @@ void validateUserInput(int *userInput){
     }
 }
 
+
+void switchOnUserInput(int *userInput){
+    
+}
+
 #endif
