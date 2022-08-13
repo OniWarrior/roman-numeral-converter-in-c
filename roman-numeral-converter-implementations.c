@@ -71,7 +71,7 @@ void switchOnUserInput(int *userInput){
        case 3:  printf("Roman Numeral III\n"); fflush(stdout);  break;
        case 4:  printf("Roman Numeral: IV\n"); fflush(stdout);  break;
        case 5:  printf("Roman Numeral: V\n" ); fflush(stdout);  break;
-
+       case 6:  printf("Roman Numeral: VI\n"); fflush(stdout);  break;
     }
 
 }
